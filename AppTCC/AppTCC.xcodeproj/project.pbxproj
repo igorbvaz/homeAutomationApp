@@ -14,6 +14,30 @@
 		6F3DEA77212C51F800B71A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3DEA75212C51F800B71A96 /* LaunchScreen.storyboard */; };
 		6F3DEA82212C51F800B71A96 /* AppTCCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3DEA81212C51F800B71A96 /* AppTCCTests.swift */; };
 		6F3DEA8D212C51F800B71A96 /* AppTCCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3DEA8C212C51F800B71A96 /* AppTCCUITests.swift */; };
+		6FD5E289212F0E4C00517EEF /* RoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E288212F0E4C00517EEF /* RoomTableViewCell.swift */; };
+		6FD5E28A212F0E4C00517EEF /* RoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E288212F0E4C00517EEF /* RoomTableViewCell.swift */; };
+		6FD5E28B212F0E4C00517EEF /* RoomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E288212F0E4C00517EEF /* RoomTableViewCell.swift */; };
+		6FD5E28D212F22B900517EEF /* DeviceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E28C212F22B900517EEF /* DeviceCollectionViewCell.swift */; };
+		6FD5E28E212F22B900517EEF /* DeviceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E28C212F22B900517EEF /* DeviceCollectionViewCell.swift */; };
+		6FD5E28F212F22B900517EEF /* DeviceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E28C212F22B900517EEF /* DeviceCollectionViewCell.swift */; };
+		6FD5E294212F27F000517EEF /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E293212F27F000517EEF /* View.swift */; };
+		6FD5E295212F27F000517EEF /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E293212F27F000517EEF /* View.swift */; };
+		6FD5E296212F27F000517EEF /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E293212F27F000517EEF /* View.swift */; };
+		6FD5E299212F36A800517EEF /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E298212F36A800517EEF /* Room.swift */; };
+		6FD5E29A212F36A800517EEF /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E298212F36A800517EEF /* Room.swift */; };
+		6FD5E29B212F36A800517EEF /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E298212F36A800517EEF /* Room.swift */; };
+		6FD5E29D212F3CB200517EEF /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E29C212F3CB200517EEF /* Device.swift */; };
+		6FD5E29E212F3CB200517EEF /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E29C212F3CB200517EEF /* Device.swift */; };
+		6FD5E29F212F3CB200517EEF /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E29C212F3CB200517EEF /* Device.swift */; };
+		6FD5E2A2212F42D300517EEF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E2A1212F42D300517EEF /* ViewModel.swift */; };
+		6FD5E2A3212F42D300517EEF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E2A1212F42D300517EEF /* ViewModel.swift */; };
+		6FD5E2A4212F42D300517EEF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E2A1212F42D300517EEF /* ViewModel.swift */; };
+		6FD5E2A8212F432700517EEF /* ArduinoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E2A7212F432700517EEF /* ArduinoService.swift */; };
+		6FD5E2A9212F432700517EEF /* ArduinoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E2A7212F432700517EEF /* ArduinoService.swift */; };
+		6FD5E2AA212F432700517EEF /* ArduinoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E2A7212F432700517EEF /* ArduinoService.swift */; };
+		6FD5E2AD212F439200517EEF /* ArduinoServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E2AC212F439200517EEF /* ArduinoServiceProtocol.swift */; };
+		6FD5E2AE212F439200517EEF /* ArduinoServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E2AC212F439200517EEF /* ArduinoServiceProtocol.swift */; };
+		6FD5E2AF212F439200517EEF /* ArduinoServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5E2AC212F439200517EEF /* ArduinoServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +71,14 @@
 		6F3DEA88212C51F800B71A96 /* AppTCCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTCCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3DEA8C212C51F800B71A96 /* AppTCCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTCCUITests.swift; sourceTree = "<group>"; };
 		6F3DEA8E212C51F800B71A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD5E288212F0E4C00517EEF /* RoomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTableViewCell.swift; sourceTree = "<group>"; };
+		6FD5E28C212F22B900517EEF /* DeviceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCollectionViewCell.swift; sourceTree = "<group>"; };
+		6FD5E293212F27F000517EEF /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		6FD5E298212F36A800517EEF /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		6FD5E29C212F3CB200517EEF /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		6FD5E2A1212F42D300517EEF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		6FD5E2A7212F432700517EEF /* ArduinoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArduinoService.swift; sourceTree = "<group>"; };
+		6FD5E2AC212F439200517EEF /* ArduinoServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArduinoServiceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +129,10 @@
 		6F3DEA6B212C51E500B71A96 /* AppTCC */ = {
 			isa = PBXGroup;
 			children = (
-				6F3DEA6C212C51E500B71A96 /* AppDelegate.swift */,
-				6F3DEA6E212C51E500B71A96 /* ViewController.swift */,
-				6F3DEA70212C51E500B71A96 /* Main.storyboard */,
+				6FD5E291212F27D500517EEF /* Common */,
+				6FD5E297212F369300517EEF /* Model */,
+				6FD5E285212F0E0200517EEF /* View */,
+				6FD5E2A0212F42A700517EEF /* ViewModel */,
 				6F3DEA73212C51F800B71A96 /* Assets.xcassets */,
 				6F3DEA75212C51F800B71A96 /* LaunchScreen.storyboard */,
 				6F3DEA78212C51F800B71A96 /* Info.plist */,
@@ -123,6 +156,101 @@
 				6F3DEA8E212C51F800B71A96 /* Info.plist */,
 			);
 			path = AppTCCUITests;
+			sourceTree = "<group>";
+		};
+		6FD5E285212F0E0200517EEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6FD5E290212F27C900517EEF /* Storyboard */,
+				6FD5E287212F0E1900517EEF /* Controller */,
+				6FD5E286212F0E1300517EEF /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FD5E286212F0E1300517EEF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6FD5E288212F0E4C00517EEF /* RoomTableViewCell.swift */,
+				6FD5E28C212F22B900517EEF /* DeviceCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6FD5E287212F0E1900517EEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F3DEA6E212C51E500B71A96 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6FD5E290212F27C900517EEF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6F3DEA70212C51E500B71A96 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		6FD5E291212F27D500517EEF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6F3DEA6C212C51E500B71A96 /* AppDelegate.swift */,
+				6FD5E292212F27E000517EEF /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6FD5E292212F27E000517EEF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6FD5E293212F27F000517EEF /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6FD5E297212F369300517EEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6FD5E2A5212F42FE00517EEF /* Entity */,
+				6FD5E2A6212F430600517EEF /* Service */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FD5E2A0212F42A700517EEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6FD5E2A1212F42D300517EEF /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6FD5E2A5212F42FE00517EEF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				6FD5E298212F36A800517EEF /* Room.swift */,
+				6FD5E29C212F3CB200517EEF /* Device.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		6FD5E2A6212F430600517EEF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6FD5E2AB212F437200517EEF /* Protocol */,
+				6FD5E2A7212F432700517EEF /* ArduinoService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6FD5E2AB212F437200517EEF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				6FD5E2AC212F439200517EEF /* ArduinoServiceProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +384,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FD5E2AD212F439200517EEF /* ArduinoServiceProtocol.swift in Sources */,
+				6FD5E28D212F22B900517EEF /* DeviceCollectionViewCell.swift in Sources */,
+				6FD5E289212F0E4C00517EEF /* RoomTableViewCell.swift in Sources */,
+				6FD5E299212F36A800517EEF /* Room.swift in Sources */,
+				6FD5E294212F27F000517EEF /* View.swift in Sources */,
 				6F3DEA6F212C51E500B71A96 /* ViewController.swift in Sources */,
+				6FD5E29D212F3CB200517EEF /* Device.swift in Sources */,
+				6FD5E2A2212F42D300517EEF /* ViewModel.swift in Sources */,
+				6FD5E2A8212F432700517EEF /* ArduinoService.swift in Sources */,
 				6F3DEA6D212C51E500B71A96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +401,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FD5E295212F27F000517EEF /* View.swift in Sources */,
+				6FD5E28E212F22B900517EEF /* DeviceCollectionViewCell.swift in Sources */,
+				6FD5E2AE212F439200517EEF /* ArduinoServiceProtocol.swift in Sources */,
+				6FD5E2A9212F432700517EEF /* ArduinoService.swift in Sources */,
+				6FD5E28A212F0E4C00517EEF /* RoomTableViewCell.swift in Sources */,
+				6FD5E29E212F3CB200517EEF /* Device.swift in Sources */,
 				6F3DEA82212C51F800B71A96 /* AppTCCTests.swift in Sources */,
+				6FD5E29A212F36A800517EEF /* Room.swift in Sources */,
+				6FD5E2A3212F42D300517EEF /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +417,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FD5E296212F27F000517EEF /* View.swift in Sources */,
+				6FD5E28F212F22B900517EEF /* DeviceCollectionViewCell.swift in Sources */,
+				6FD5E2AF212F439200517EEF /* ArduinoServiceProtocol.swift in Sources */,
+				6FD5E2AA212F432700517EEF /* ArduinoService.swift in Sources */,
+				6FD5E28B212F0E4C00517EEF /* RoomTableViewCell.swift in Sources */,
+				6FD5E29F212F3CB200517EEF /* Device.swift in Sources */,
 				6F3DEA8D212C51F800B71A96 /* AppTCCUITests.swift in Sources */,
+				6FD5E29B212F36A800517EEF /* Room.swift in Sources */,
+				6FD5E2A4212F42D300517EEF /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +583,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9G5P48NTT;
 				INFOPLIST_FILE = AppTCC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,6 +602,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9G5P48NTT;
 				INFOPLIST_FILE = AppTCC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
