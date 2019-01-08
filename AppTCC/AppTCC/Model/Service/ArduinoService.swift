@@ -28,7 +28,7 @@ class ArduinoService: ArduinoServiceProtocol {
         // mock
         var devices = [Device]()
         
-        switch room.roomType {
+        switch room.roomType! {
         case .bathroom:
             devices.append(Device(deviceType: .lightBulb, deviceStatus: .off))
             break
@@ -44,8 +44,6 @@ class ArduinoService: ArduinoServiceProtocol {
         case .kitchen:
             devices.append(Device(deviceType: .lightBulb, deviceStatus: .off))
             devices.append(Device(deviceType: .lightBulb, deviceStatus: .off))
-            break
-        default:
             break
         }
         

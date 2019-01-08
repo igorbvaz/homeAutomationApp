@@ -8,16 +8,16 @@
 
 import UIKit
 
-enum RoomType: Int {
-    case bathroom
-    case livingRoom
-    case bedroom
-    case kitchen
+enum RoomType: String {
+    case bathroom = "banheiro"
+    case livingRoom = "sala"
+    case bedroom = "quarto"
+    case kitchen = "cozinha"
 }
 
 class Room: NSObject {
     
-    var roomType: RoomType! = RoomType.bathroom
+    var roomType: RoomType? = RoomType.bathroom
     var devicesArray = [Device]()
     
     init(roomType: RoomType) {
@@ -25,6 +25,10 @@ class Room: NSObject {
     }
     
     func name() -> String {
+        guard let roomType = roomType else {
+            return "Desconhecido"
+        }
+        
         switch roomType {
         case .bathroom:
             return "Banheiro"

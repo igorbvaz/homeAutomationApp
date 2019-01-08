@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import CoreBluetooth
 
-enum DeviceType: Int {
-    case lightBulb
-    case fan
-    case airconditioner
-    case unknown
+enum DeviceType: String {
+    case lightBulb = "lampada"
+    case fan = "ventilador"
+    case airconditioner = "arcondicionado"
+    case unknown = ""
 }
 
 enum DeviceStatus: Int {
@@ -26,6 +27,7 @@ class Device: NSObject {
     
     var deviceType: DeviceType = .unknown
     var deviceStatus: DeviceStatus = .unknown
+    var bluetooth: CBPeripheral?
     
     init(deviceType: DeviceType, deviceStatus: DeviceStatus) {
         self.deviceType = deviceType
@@ -69,6 +71,12 @@ class Device: NSObject {
         default:
             return UIColor.white
         }
+    }
+    
+    func characteristic() -> CBCharacteristic? {
+        
+        return self.bluetooth?.services?[0].characteristics?[0]
+        
     }
     
 }
